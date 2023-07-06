@@ -1,0 +1,937 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAEDAFAC2A5593DA004C4E5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEDAFAB2A5593DA004C4E5A /* AppDelegate.swift */; };
+		FAEDAFAE2A5593DA004C4E5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEDAFAD2A5593DA004C4E5A /* SceneDelegate.swift */; };
+		FAEDAFB52A5593E1004C4E5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAEDAFB42A5593E1004C4E5A /* Assets.xcassets */; };
+		FAEDAFB82A5593E3004C4E5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAEDAFB62A5593E3004C4E5A /* LaunchScreen.storyboard */; };
+		FAEDAFC32A5593E5004C4E5A /* CarrotCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEDAFC22A5593E5004C4E5A /* CarrotCloneTests.swift */; };
+		FAEDAFCD2A5593E5004C4E5A /* CarrotCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEDAFCC2A5593E5004C4E5A /* CarrotCloneUITests.swift */; };
+		FAEDAFCF2A5593E5004C4E5A /* CarrotCloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEDAFCE2A5593E5004C4E5A /* CarrotCloneUITestsLaunchTests.swift */; };
+		FAEDAFDD2A55943F004C4E5A /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = FAEDAFDC2A55943F004C4E5A /* SnapKit */; };
+		FAEDAFE02A559447004C4E5A /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = FAEDAFDF2A559447004C4E5A /* Then */; };
+		FAEDAFE32A559451004C4E5A /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = FAEDAFE22A559451004C4E5A /* Swinject */; };
+		FAEDAFE62A559467004C4E5A /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = FAEDAFE52A559467004C4E5A /* RxCocoa */; };
+		FAEDAFE82A559467004C4E5A /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = FAEDAFE72A559467004C4E5A /* RxRelay */; };
+		FAEDAFEA2A559467004C4E5A /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FAEDAFE92A559467004C4E5A /* RxSwift */; };
+		FAEDAFED2A559473004C4E5A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = FAEDAFEC2A559473004C4E5A /* Alamofire */; };
+		FAEDAFF02A5594CC004C4E5A /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = FAEDAFEF2A5594CC004C4E5A /* FirebaseAuth */; };
+		FAEDAFF22A5594CC004C4E5A /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = FAEDAFF12A5594CC004C4E5A /* FirebaseFirestore */; };
+		FAEDAFF42A5594CC004C4E5A /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = FAEDAFF32A5594CC004C4E5A /* FirebaseStorage */; };
+		FAEDAFF62A55956E004C4E5A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FAEDAFF52A55956E004C4E5A /* GoogleService-Info.plist */; };
+		FAEDB00F2A5599F2004C4E5A /* DIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEDB00E2A5599F2004C4E5A /* DIContainer.swift */; };
+		FAEDB0112A559BA8004C4E5A /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEDB0102A559BA8004C4E5A /* ViewModel.swift */; };
+		FAEDB0132A559BFD004C4E5A /* Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEDB0122A559BFD004C4E5A /* Identifiable.swift */; };
+		FAEDB0152A559C34004C4E5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEDB0142A559C34004C4E5A /* ViewController.swift */; };
+		FAEDB0172A559CCB004C4E5A /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEDB0162A559CCB004C4E5A /* BaseCoordinator.swift */; };
+		FAEDB0192A559CF2004C4E5A /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEDB0182A559CF2004C4E5A /* AppCoordinator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAEDAFBF2A5593E5004C4E5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAEDAFA02A5593D9004C4E5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAEDAFA72A5593D9004C4E5A;
+			remoteInfo = CarrotClone;
+		};
+		FAEDAFC92A5593E5004C4E5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAEDAFA02A5593D9004C4E5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAEDAFA72A5593D9004C4E5A;
+			remoteInfo = CarrotClone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAEDAFA82A5593DA004C4E5A /* CarrotClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarrotClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAEDAFAB2A5593DA004C4E5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAEDAFAD2A5593DA004C4E5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FAEDAFB42A5593E1004C4E5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAEDAFB72A5593E3004C4E5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAEDAFB92A5593E3004C4E5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAEDAFBE2A5593E5004C4E5A /* CarrotCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarrotCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAEDAFC22A5593E5004C4E5A /* CarrotCloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrotCloneTests.swift; sourceTree = "<group>"; };
+		FAEDAFC82A5593E5004C4E5A /* CarrotCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarrotCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAEDAFCC2A5593E5004C4E5A /* CarrotCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrotCloneUITests.swift; sourceTree = "<group>"; };
+		FAEDAFCE2A5593E5004C4E5A /* CarrotCloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrotCloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FAEDAFF52A55956E004C4E5A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FAEDB00E2A5599F2004C4E5A /* DIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIContainer.swift; sourceTree = "<group>"; };
+		FAEDB0102A559BA8004C4E5A /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		FAEDB0122A559BFD004C4E5A /* Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identifiable.swift; sourceTree = "<group>"; };
+		FAEDB0142A559C34004C4E5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAEDB0162A559CCB004C4E5A /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		FAEDB0182A559CF2004C4E5A /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAEDAFA52A5593D9004C4E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEDAFEA2A559467004C4E5A /* RxSwift in Frameworks */,
+				FAEDAFED2A559473004C4E5A /* Alamofire in Frameworks */,
+				FAEDAFE82A559467004C4E5A /* RxRelay in Frameworks */,
+				FAEDAFF42A5594CC004C4E5A /* FirebaseStorage in Frameworks */,
+				FAEDAFDD2A55943F004C4E5A /* SnapKit in Frameworks */,
+				FAEDAFE02A559447004C4E5A /* Then in Frameworks */,
+				FAEDAFF22A5594CC004C4E5A /* FirebaseFirestore in Frameworks */,
+				FAEDAFE62A559467004C4E5A /* RxCocoa in Frameworks */,
+				FAEDAFE32A559451004C4E5A /* Swinject in Frameworks */,
+				FAEDAFF02A5594CC004C4E5A /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEDAFBB2A5593E5004C4E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEDAFC52A5593E5004C4E5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAEDAF9F2A5593D9004C4E5A = {
+			isa = PBXGroup;
+			children = (
+				FAEDAFAA2A5593DA004C4E5A /* CarrotClone */,
+				FAEDAFC12A5593E5004C4E5A /* CarrotCloneTests */,
+				FAEDAFCB2A5593E5004C4E5A /* CarrotCloneUITests */,
+				FAEDAFA92A5593DA004C4E5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAEDAFA92A5593DA004C4E5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAEDAFA82A5593DA004C4E5A /* CarrotClone.app */,
+				FAEDAFBE2A5593E5004C4E5A /* CarrotCloneTests.xctest */,
+				FAEDAFC82A5593E5004C4E5A /* CarrotCloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAEDAFAA2A5593DA004C4E5A /* CarrotClone */ = {
+			isa = PBXGroup;
+			children = (
+				FAEDB00D2A5599E3004C4E5A /* Resource */,
+				FAEDAFF72A559821004C4E5A /* App */,
+				FAEDB0042A559972004C4E5A /* Data */,
+				FAEDAFF92A55982E004C4E5A /* Domain */,
+				FAEDAFFA2A559831004C4E5A /* Presentation */,
+				FAEDB01A2A559DDC004C4E5A /* Service */,
+			);
+			path = CarrotClone;
+			sourceTree = "<group>";
+		};
+		FAEDAFC12A5593E5004C4E5A /* CarrotCloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAEDAFC22A5593E5004C4E5A /* CarrotCloneTests.swift */,
+			);
+			path = CarrotCloneTests;
+			sourceTree = "<group>";
+		};
+		FAEDAFCB2A5593E5004C4E5A /* CarrotCloneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAEDAFCC2A5593E5004C4E5A /* CarrotCloneUITests.swift */,
+				FAEDAFCE2A5593E5004C4E5A /* CarrotCloneUITestsLaunchTests.swift */,
+			);
+			path = CarrotCloneUITests;
+			sourceTree = "<group>";
+		};
+		FAEDAFF72A559821004C4E5A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FAEDAFAB2A5593DA004C4E5A /* AppDelegate.swift */,
+				FAEDB00E2A5599F2004C4E5A /* DIContainer.swift */,
+				FAEDAFAD2A5593DA004C4E5A /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FAEDAFF92A55982E004C4E5A /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				FAEDB00A2A55999D004C4E5A /* Repository */,
+				FAEDB0092A559998004C4E5A /* Entity */,
+				FAEDB00C2A5599AB004C4E5A /* UseCase */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		FAEDAFFA2A559831004C4E5A /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				FAEDAFFB2A55986B004C4E5A /* Common */,
+				FAEDB0002A559914004C4E5A /* Login */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		FAEDAFFB2A55986B004C4E5A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				FAEDAFFC2A5598C5004C4E5A /* Coordinator */,
+				FAEDAFFF2A559908004C4E5A /* Protocol */,
+				FAEDAFFD2A5598D3004C4E5A /* ViewController */,
+				FAEDAFFE2A5598F0004C4E5A /* View */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		FAEDAFFC2A5598C5004C4E5A /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				FAEDB0162A559CCB004C4E5A /* BaseCoordinator.swift */,
+				FAEDB0182A559CF2004C4E5A /* AppCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		FAEDAFFD2A5598D3004C4E5A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FAEDB0142A559C34004C4E5A /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		FAEDAFFE2A5598F0004C4E5A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FAEDAFFF2A559908004C4E5A /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				FAEDB0102A559BA8004C4E5A /* ViewModel.swift */,
+				FAEDB0122A559BFD004C4E5A /* Identifiable.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		FAEDB0002A559914004C4E5A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				FAEDB0012A559923004C4E5A /* View */,
+				FAEDB0022A559943004C4E5A /* ViewController */,
+				FAEDB0032A559948004C4E5A /* ViewModel */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		FAEDB0012A559923004C4E5A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FAEDB0022A559943004C4E5A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		FAEDB0032A559948004C4E5A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FAEDB0042A559972004C4E5A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FAEDB0052A55997F004C4E5A /* Local */,
+				FAEDB0072A559987004C4E5A /* Remote */,
+				FAEDB0082A559990004C4E5A /* Repository */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		FAEDB0052A55997F004C4E5A /* Local */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		FAEDB0072A559987004C4E5A /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		FAEDB0082A559990004C4E5A /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		FAEDB0092A559998004C4E5A /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		FAEDB00A2A55999D004C4E5A /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				FAEDB00B2A5599A3004C4E5A /* Protocol */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		FAEDB00B2A5599A3004C4E5A /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		FAEDB00C2A5599AB004C4E5A /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		FAEDB00D2A5599E3004C4E5A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				FAEDAFB62A5593E3004C4E5A /* LaunchScreen.storyboard */,
+				FAEDAFB42A5593E1004C4E5A /* Assets.xcassets */,
+				FAEDAFB92A5593E3004C4E5A /* Info.plist */,
+				FAEDAFF52A55956E004C4E5A /* GoogleService-Info.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		FAEDB01A2A559DDC004C4E5A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAEDAFA72A5593D9004C4E5A /* CarrotClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAEDAFD22A5593E5004C4E5A /* Build configuration list for PBXNativeTarget "CarrotClone" */;
+			buildPhases = (
+				FAEDAFA42A5593D9004C4E5A /* Sources */,
+				FAEDAFA52A5593D9004C4E5A /* Frameworks */,
+				FAEDAFA62A5593D9004C4E5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarrotClone;
+			packageProductDependencies = (
+				FAEDAFDC2A55943F004C4E5A /* SnapKit */,
+				FAEDAFDF2A559447004C4E5A /* Then */,
+				FAEDAFE22A559451004C4E5A /* Swinject */,
+				FAEDAFE52A559467004C4E5A /* RxCocoa */,
+				FAEDAFE72A559467004C4E5A /* RxRelay */,
+				FAEDAFE92A559467004C4E5A /* RxSwift */,
+				FAEDAFEC2A559473004C4E5A /* Alamofire */,
+				FAEDAFEF2A5594CC004C4E5A /* FirebaseAuth */,
+				FAEDAFF12A5594CC004C4E5A /* FirebaseFirestore */,
+				FAEDAFF32A5594CC004C4E5A /* FirebaseStorage */,
+			);
+			productName = CarrotClone;
+			productReference = FAEDAFA82A5593DA004C4E5A /* CarrotClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAEDAFBD2A5593E5004C4E5A /* CarrotCloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAEDAFD52A5593E5004C4E5A /* Build configuration list for PBXNativeTarget "CarrotCloneTests" */;
+			buildPhases = (
+				FAEDAFBA2A5593E5004C4E5A /* Sources */,
+				FAEDAFBB2A5593E5004C4E5A /* Frameworks */,
+				FAEDAFBC2A5593E5004C4E5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAEDAFC02A5593E5004C4E5A /* PBXTargetDependency */,
+			);
+			name = CarrotCloneTests;
+			productName = CarrotCloneTests;
+			productReference = FAEDAFBE2A5593E5004C4E5A /* CarrotCloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAEDAFC72A5593E5004C4E5A /* CarrotCloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAEDAFD82A5593E5004C4E5A /* Build configuration list for PBXNativeTarget "CarrotCloneUITests" */;
+			buildPhases = (
+				FAEDAFC42A5593E5004C4E5A /* Sources */,
+				FAEDAFC52A5593E5004C4E5A /* Frameworks */,
+				FAEDAFC62A5593E5004C4E5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAEDAFCA2A5593E5004C4E5A /* PBXTargetDependency */,
+			);
+			name = CarrotCloneUITests;
+			productName = CarrotCloneUITests;
+			productReference = FAEDAFC82A5593E5004C4E5A /* CarrotCloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAEDAFA02A5593D9004C4E5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FAEDAFA72A5593D9004C4E5A = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					FAEDAFBD2A5593E5004C4E5A = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = FAEDAFA72A5593D9004C4E5A;
+					};
+					FAEDAFC72A5593E5004C4E5A = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = FAEDAFA72A5593D9004C4E5A;
+					};
+				};
+			};
+			buildConfigurationList = FAEDAFA32A5593D9004C4E5A /* Build configuration list for PBXProject "CarrotClone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAEDAF9F2A5593D9004C4E5A;
+			packageReferences = (
+				FAEDAFDB2A55943E004C4E5A /* XCRemoteSwiftPackageReference "SnapKit" */,
+				FAEDAFDE2A559447004C4E5A /* XCRemoteSwiftPackageReference "Then" */,
+				FAEDAFE12A559451004C4E5A /* XCRemoteSwiftPackageReference "Swinject" */,
+				FAEDAFE42A559467004C4E5A /* XCRemoteSwiftPackageReference "RxSwift" */,
+				FAEDAFEB2A559473004C4E5A /* XCRemoteSwiftPackageReference "Alamofire" */,
+				FAEDAFEE2A5594CC004C4E5A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = FAEDAFA92A5593DA004C4E5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAEDAFA72A5593D9004C4E5A /* CarrotClone */,
+				FAEDAFBD2A5593E5004C4E5A /* CarrotCloneTests */,
+				FAEDAFC72A5593E5004C4E5A /* CarrotCloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAEDAFA62A5593D9004C4E5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEDAFB82A5593E3004C4E5A /* LaunchScreen.storyboard in Resources */,
+				FAEDAFF62A55956E004C4E5A /* GoogleService-Info.plist in Resources */,
+				FAEDAFB52A5593E1004C4E5A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEDAFBC2A5593E5004C4E5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEDAFC62A5593E5004C4E5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAEDAFA42A5593D9004C4E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEDB0112A559BA8004C4E5A /* ViewModel.swift in Sources */,
+				FAEDB0132A559BFD004C4E5A /* Identifiable.swift in Sources */,
+				FAEDB00F2A5599F2004C4E5A /* DIContainer.swift in Sources */,
+				FAEDB0152A559C34004C4E5A /* ViewController.swift in Sources */,
+				FAEDB0192A559CF2004C4E5A /* AppCoordinator.swift in Sources */,
+				FAEDB0172A559CCB004C4E5A /* BaseCoordinator.swift in Sources */,
+				FAEDAFAC2A5593DA004C4E5A /* AppDelegate.swift in Sources */,
+				FAEDAFAE2A5593DA004C4E5A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEDAFBA2A5593E5004C4E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEDAFC32A5593E5004C4E5A /* CarrotCloneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEDAFC42A5593E5004C4E5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEDAFCD2A5593E5004C4E5A /* CarrotCloneUITests.swift in Sources */,
+				FAEDAFCF2A5593E5004C4E5A /* CarrotCloneUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAEDAFC02A5593E5004C4E5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAEDAFA72A5593D9004C4E5A /* CarrotClone */;
+			targetProxy = FAEDAFBF2A5593E5004C4E5A /* PBXContainerItemProxy */;
+		};
+		FAEDAFCA2A5593E5004C4E5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAEDAFA72A5593D9004C4E5A /* CarrotClone */;
+			targetProxy = FAEDAFC92A5593E5004C4E5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAEDAFB62A5593E3004C4E5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAEDAFB72A5593E3004C4E5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAEDAFD02A5593E5004C4E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAEDAFD12A5593E5004C4E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAEDAFD32A5593E5004C4E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5QNWYK9LQY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarrotClone/Resource/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clamp.CarrotClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAEDAFD42A5593E5004C4E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5QNWYK9LQY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarrotClone/Resource/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clamp.CarrotClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAEDAFD62A5593E5004C4E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5QNWYK9LQY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clamp.CarrotCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarrotClone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CarrotClone";
+			};
+			name = Debug;
+		};
+		FAEDAFD72A5593E5004C4E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5QNWYK9LQY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clamp.CarrotCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarrotClone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CarrotClone";
+			};
+			name = Release;
+		};
+		FAEDAFD92A5593E5004C4E5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5QNWYK9LQY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clamp.CarrotCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarrotClone;
+			};
+			name = Debug;
+		};
+		FAEDAFDA2A5593E5004C4E5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5QNWYK9LQY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.clamp.CarrotCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarrotClone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAEDAFA32A5593D9004C4E5A /* Build configuration list for PBXProject "CarrotClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEDAFD02A5593E5004C4E5A /* Debug */,
+				FAEDAFD12A5593E5004C4E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAEDAFD22A5593E5004C4E5A /* Build configuration list for PBXNativeTarget "CarrotClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEDAFD32A5593E5004C4E5A /* Debug */,
+				FAEDAFD42A5593E5004C4E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAEDAFD52A5593E5004C4E5A /* Build configuration list for PBXNativeTarget "CarrotCloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEDAFD62A5593E5004C4E5A /* Debug */,
+				FAEDAFD72A5593E5004C4E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAEDAFD82A5593E5004C4E5A /* Build configuration list for PBXNativeTarget "CarrotCloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEDAFD92A5593E5004C4E5A /* Debug */,
+				FAEDAFDA2A5593E5004C4E5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FAEDAFDB2A55943E004C4E5A /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		FAEDAFDE2A559447004C4E5A /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		FAEDAFE12A559451004C4E5A /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		FAEDAFE42A559467004C4E5A /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		FAEDAFEB2A559473004C4E5A /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		FAEDAFEE2A5594CC004C4E5A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FAEDAFDC2A55943F004C4E5A /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAEDAFDB2A55943E004C4E5A /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		FAEDAFDF2A559447004C4E5A /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAEDAFDE2A559447004C4E5A /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+		FAEDAFE22A559451004C4E5A /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAEDAFE12A559451004C4E5A /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+		FAEDAFE52A559467004C4E5A /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAEDAFE42A559467004C4E5A /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		FAEDAFE72A559467004C4E5A /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAEDAFE42A559467004C4E5A /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		FAEDAFE92A559467004C4E5A /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAEDAFE42A559467004C4E5A /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		FAEDAFEC2A559473004C4E5A /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAEDAFEB2A559473004C4E5A /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		FAEDAFEF2A5594CC004C4E5A /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAEDAFEE2A5594CC004C4E5A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		FAEDAFF12A5594CC004C4E5A /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAEDAFEE2A5594CC004C4E5A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		FAEDAFF32A5594CC004C4E5A /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAEDAFEE2A5594CC004C4E5A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FAEDAFA02A5593D9004C4E5A /* Project object */;
+}
