@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA63293D2A56E24E00B8BE01 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA63293C2A56E24E00B8BE01 /* Keychain.swift */; };
+		FA63293F2A56E26300B8BE01 /* UserDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA63293E2A56E26300B8BE01 /* UserDataSource.swift */; };
+		FA6329412A56E26900B8BE01 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6329402A56E26900B8BE01 /* UserRepository.swift */; };
+		FA6329432A56E27900B8BE01 /* UserRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6329422A56E27900B8BE01 /* UserRepositoryProtocol.swift */; };
+		FA6329452A56E27F00B8BE01 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6329442A56E27F00B8BE01 /* User.swift */; };
+		FA6329472A56E28600B8BE01 /* UserUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6329462A56E28600B8BE01 /* UserUseCase.swift */; };
+		FA6329492A56E29400B8BE01 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6329482A56E29400B8BE01 /* InputView.swift */; };
+		FA63294B2A56E29F00B8BE01 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA63294A2A56E29F00B8BE01 /* APIService.swift */; };
 		FAEDAFAC2A5593DA004C4E5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEDAFAB2A5593DA004C4E5A /* AppDelegate.swift */; };
 		FAEDAFAE2A5593DA004C4E5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEDAFAD2A5593DA004C4E5A /* SceneDelegate.swift */; };
 		FAEDAFB52A5593E1004C4E5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAEDAFB42A5593E1004C4E5A /* Assets.xcassets */; };
@@ -51,6 +59,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA63293C2A56E24E00B8BE01 /* Keychain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keychain.swift; sourceTree = "<group>"; };
+		FA63293E2A56E26300B8BE01 /* UserDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataSource.swift; sourceTree = "<group>"; };
+		FA6329402A56E26900B8BE01 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
+		FA6329422A56E27900B8BE01 /* UserRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepositoryProtocol.swift; sourceTree = "<group>"; };
+		FA6329442A56E27F00B8BE01 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FA6329462A56E28600B8BE01 /* UserUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserUseCase.swift; sourceTree = "<group>"; };
+		FA6329482A56E29400B8BE01 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		FA63294A2A56E29F00B8BE01 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		FAEDAFA82A5593DA004C4E5A /* CarrotClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarrotClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAEDAFAB2A5593DA004C4E5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAEDAFAD2A5593DA004C4E5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -216,6 +232,7 @@
 		FAEDAFFE2A5598F0004C4E5A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FA6329482A56E29400B8BE01 /* InputView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -273,6 +290,7 @@
 		FAEDB0052A55997F004C4E5A /* Local */ = {
 			isa = PBXGroup;
 			children = (
+				FA63293C2A56E24E00B8BE01 /* Keychain.swift */,
 			);
 			path = Local;
 			sourceTree = "<group>";
@@ -280,6 +298,7 @@
 		FAEDB0072A559987004C4E5A /* Remote */ = {
 			isa = PBXGroup;
 			children = (
+				FA63293E2A56E26300B8BE01 /* UserDataSource.swift */,
 			);
 			path = Remote;
 			sourceTree = "<group>";
@@ -287,6 +306,7 @@
 		FAEDB0082A559990004C4E5A /* Repository */ = {
 			isa = PBXGroup;
 			children = (
+				FA6329402A56E26900B8BE01 /* UserRepository.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -294,6 +314,7 @@
 		FAEDB0092A559998004C4E5A /* Entity */ = {
 			isa = PBXGroup;
 			children = (
+				FA6329442A56E27F00B8BE01 /* User.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -309,6 +330,7 @@
 		FAEDB00B2A5599A3004C4E5A /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
+				FA6329422A56E27900B8BE01 /* UserRepositoryProtocol.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -316,6 +338,7 @@
 		FAEDB00C2A5599AB004C4E5A /* UseCase */ = {
 			isa = PBXGroup;
 			children = (
+				FA6329462A56E28600B8BE01 /* UserUseCase.swift */,
 			);
 			path = UseCase;
 			sourceTree = "<group>";
@@ -334,6 +357,7 @@
 		FAEDB01A2A559DDC004C4E5A /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				FA63294A2A56E29F00B8BE01 /* APIService.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -489,12 +513,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA6329452A56E27F00B8BE01 /* User.swift in Sources */,
+				FA6329412A56E26900B8BE01 /* UserRepository.swift in Sources */,
 				FAEDB0112A559BA8004C4E5A /* ViewModel.swift in Sources */,
 				FAEDB0132A559BFD004C4E5A /* Identifiable.swift in Sources */,
 				FAEDB00F2A5599F2004C4E5A /* DIContainer.swift in Sources */,
+				FA63293F2A56E26300B8BE01 /* UserDataSource.swift in Sources */,
+				FA63294B2A56E29F00B8BE01 /* APIService.swift in Sources */,
 				FAEDB0152A559C34004C4E5A /* ViewController.swift in Sources */,
 				FAEDB0192A559CF2004C4E5A /* AppCoordinator.swift in Sources */,
+				FA6329472A56E28600B8BE01 /* UserUseCase.swift in Sources */,
+				FA63293D2A56E24E00B8BE01 /* Keychain.swift in Sources */,
+				FA6329432A56E27900B8BE01 /* UserRepositoryProtocol.swift in Sources */,
 				FAEDB0172A559CCB004C4E5A /* BaseCoordinator.swift in Sources */,
+				FA6329492A56E29400B8BE01 /* InputView.swift in Sources */,
 				FAEDAFAC2A5593DA004C4E5A /* AppDelegate.swift in Sources */,
 				FAEDAFAE2A5593DA004C4E5A /* SceneDelegate.swift in Sources */,
 			);
