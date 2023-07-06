@@ -15,6 +15,9 @@
 		FA6329472A56E28600B8BE01 /* UserUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6329462A56E28600B8BE01 /* UserUseCase.swift */; };
 		FA6329492A56E29400B8BE01 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6329482A56E29400B8BE01 /* InputView.swift */; };
 		FA63294B2A56E29F00B8BE01 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA63294A2A56E29F00B8BE01 /* APIService.swift */; };
+		FA63294D2A56E94D00B8BE01 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA63294C2A56E94D00B8BE01 /* View.swift */; };
+		FA63294F2A56E95A00B8BE01 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA63294E2A56E95A00B8BE01 /* ViewController.swift */; };
+		FA6329512A56E96100B8BE01 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6329502A56E96100B8BE01 /* ViewModel.swift */; };
 		FAEDAFAC2A5593DA004C4E5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEDAFAB2A5593DA004C4E5A /* AppDelegate.swift */; };
 		FAEDAFAE2A5593DA004C4E5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEDAFAD2A5593DA004C4E5A /* SceneDelegate.swift */; };
 		FAEDAFB52A5593E1004C4E5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAEDAFB42A5593E1004C4E5A /* Assets.xcassets */; };
@@ -67,6 +70,9 @@
 		FA6329462A56E28600B8BE01 /* UserUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserUseCase.swift; sourceTree = "<group>"; };
 		FA6329482A56E29400B8BE01 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
 		FA63294A2A56E29F00B8BE01 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		FA63294C2A56E94D00B8BE01 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		FA63294E2A56E95A00B8BE01 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA6329502A56E96100B8BE01 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		FAEDAFA82A5593DA004C4E5A /* CarrotClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarrotClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAEDAFAB2A5593DA004C4E5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAEDAFAD2A5593DA004C4E5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -259,6 +265,7 @@
 		FAEDB0012A559923004C4E5A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FA63294C2A56E94D00B8BE01 /* View.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -266,6 +273,7 @@
 		FAEDB0022A559943004C4E5A /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				FA63294E2A56E95A00B8BE01 /* ViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -273,6 +281,7 @@
 		FAEDB0032A559948004C4E5A /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				FA6329502A56E96100B8BE01 /* ViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -517,13 +526,16 @@
 				FA6329412A56E26900B8BE01 /* UserRepository.swift in Sources */,
 				FAEDB0112A559BA8004C4E5A /* ViewModel.swift in Sources */,
 				FAEDB0132A559BFD004C4E5A /* Identifiable.swift in Sources */,
+				FA63294D2A56E94D00B8BE01 /* View.swift in Sources */,
 				FAEDB00F2A5599F2004C4E5A /* DIContainer.swift in Sources */,
 				FA63293F2A56E26300B8BE01 /* UserDataSource.swift in Sources */,
 				FA63294B2A56E29F00B8BE01 /* APIService.swift in Sources */,
 				FAEDB0152A559C34004C4E5A /* ViewController.swift in Sources */,
 				FAEDB0192A559CF2004C4E5A /* AppCoordinator.swift in Sources */,
 				FA6329472A56E28600B8BE01 /* UserUseCase.swift in Sources */,
+				FA6329512A56E96100B8BE01 /* ViewModel.swift in Sources */,
 				FA63293D2A56E24E00B8BE01 /* Keychain.swift in Sources */,
+				FA63294F2A56E95A00B8BE01 /* ViewController.swift in Sources */,
 				FA6329432A56E27900B8BE01 /* UserRepositoryProtocol.swift in Sources */,
 				FAEDB0172A559CCB004C4E5A /* BaseCoordinator.swift in Sources */,
 				FA6329492A56E29400B8BE01 /* InputView.swift in Sources */,
